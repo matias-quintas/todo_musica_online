@@ -13,18 +13,17 @@
 <body>
   <header class="header">
     <a href="../index.html"><img class="headerLogo" src="../img/logo-principal.webp" alt="Logo Todo Música Online"></a>
-    <form class="searchForm" action="/" method="get" role="search">
+    <!-- <form class="searchForm" action="/" method="get" role="search">
       <label for="search-box"></label>
       <input name="search-box" id="search-box" placeholder="Buscar productos, marcas y más…" maxlength="120">
-    </form>
+    </form> -->
     <nav>
       <ul>
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="./ofertas.html">Ofertas</a>
         </li>
         <li><a href="./instrumentos.html">Instrumentos</a></li>
-        <li><a href="./electronica-audio.html">Electrónica y
-            Audio</a></li>
+        <li><a href="./electronica-audio.html">Electrónica/Audio</a></li>
         <li><a href="./accesorios.html">Accesorios</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
@@ -34,26 +33,22 @@
     <section class="formSection">
       <form action="/" method="post">
         <label for="name">Nombre:</label>
-        <input type="text" name="name" id="name">
-        <br><br>
+        <input class="marginElementsForm" type="text" name="name" id="name">
         <label for="lastname">Apellido:</label>
-        <input type="text" name="lastname" id="lastname">
-        <br><br>
+        <input class="marginElementsForm" type="text" name="lastname" id="lastname">
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
-        <br><br>
-        <select name="select" id="select">
+        <input class="marginElementsForm" type="email" name="email" id="email">
+        <select class="marginElementsForm" name="select" id="select">
           <option value="A">Opción A</option>
           <option value="B">Opción B</option>
           <option value="C">Opción C</option>
         </select>
-        <br><br>
         <label for="message">Mensaje:</label>
-        <br>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        <br><br>
-        <input type="reset" value="Borrar">
-        <input type="submit" value="Enviar">
+        <textarea class="marginElementsForm" name="message" id="message" cols="30" rows="10"></textarea>
+        <div class="formButtons">
+          <input type="reset" value="Borrar">
+          <input type="submit" value="Enviar">
+        </div>
       </form>
     </section>
   </main>
