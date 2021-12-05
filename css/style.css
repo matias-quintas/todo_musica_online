@@ -3,20 +3,28 @@
   text-decoration: none;
 }
 
+/* 
+.cardEjemplo {
+  display: flex;
+  justify-content: space-around;
+} */
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: #ebebeb;
 }
-
+/* 
 h2 {
   margin: 0;
   padding: 0;
-}
+} */
 
 .header {
   position: sticky;
+  z-index: 10;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -86,6 +94,8 @@ h2 {
   padding: 0px 10px;
 }
 
+/* 
+
 .cardGroup {
   display: flex;
   justify-content: space-between;
@@ -125,7 +135,7 @@ h2 {
 
 .card a div p {
   margin: 16px 0 0 0;
-}
+} */
 
 .marcasSection {
   display: grid;
